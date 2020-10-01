@@ -1,0 +1,106 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "RWHS",
+      "description": "Электронная отчетность",
+      "type_name": "Продуктивная",
+      "leader_id": 1,
+      "leader_name": "Сысоев Алексей",
+      "stacks": "JS, React, Vue",
+      "size": 3,
+      "status": "Активная"
+    },
+    {
+      "id": 2,
+      "name": "CVM",
+      "description": "Построение моделей",
+      "type_name": "Продуктивная",
+      "leader_id": 1,
+      "leader_name": "Сысоев Алексей",
+      "stacks": "Python, Data science",
+      "size": 5,
+      "status": "Активная"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "tn": "12563",
+      "role": "Разработчик",
+      "lvl": "1",
+      "specialization": "Full stack",
+      "competence": "Middle",
+      "user_name": "Сысоев Алексей",
+      "stacks": "JS, React, Vue",
+      "status": "Активная",
+      "load": 60,
+      "office": "Киев",
+      "phone": "+38(073) 182-41-65",
+      "email": "bostonleek@gmail.com",
+      "active_teams": [
+        {
+          "id": 1,
+          "name": "CVM",
+          "description": "Построение моделей",
+          "type_name": "Продуктивная",
+          "role": "Разработчик",
+          "leader_id": 1,
+          "leader_name": "Сысоев Алексей",
+          "user_load": 20,
+          "status": "Активная"
+        },
+        {
+          "id": 2,
+          "name": "RWHS",
+          "description": "Электронная отчетность",
+          "type_name": "Продуктивная",
+          "role": "Разработчик",
+          "leader_id": 1,
+          "leader_name": "Сысоев Алексей",
+          "user_load": 40,
+          "status": "Активная"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tn": "32323",
+      "role": "Аналитик",
+      "lvl": "2",
+      "specialization": "Data science",
+      "competence": "Middle",
+      "user_name": "Никитюк Александр",
+      "stacks": "Hive",
+      "status": "Активная",
+      "load": 20,
+      "office": "Киев",
+      "phone": "+38(073) 182-41-65",
+      "email": "bostonleek@gmail.com",
+      "active_teams": [
+        {
+          "id": 1,
+          "name": "CVM",
+          "description": "Построение моделей",
+          "type_name": "Продуктивная",
+          "role": "Аналитик",
+          "leader_id": 1,
+          "leader_name": "Сысоев Алексей",
+          "user_load": 10,
+          "status": "Активная"
+        },
+        {
+          "id": 2,
+          "name": "RWHS",
+          "description": "Электронная отчетность",
+          "type_name": "Продуктивная",
+          "role": "Аналитик",
+          "leader_id": 1,
+          "leader_name": "Сысоев Алексей",
+          "user_load": 10,
+          "status": "Активная"
+        }
+      ]
+    }
+  ]
+}
